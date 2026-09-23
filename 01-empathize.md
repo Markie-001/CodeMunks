@@ -14,6 +14,7 @@
   
 ## 2. Empathy Map (Visueel)
 ![Empathy Map](./assets/Chipmunks.webp)
+![test](./assets/Chipmunks.webp)
 
   
 ## 3. Conclusie
