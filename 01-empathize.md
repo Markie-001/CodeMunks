@@ -13,9 +13,9 @@
 
   
 ## 2. Empathy Map (Visueel)
-![Empathy Map](./assets/Chipmunks.webp)
-![test](./assets/Chipmunks.webp)
+![Empathy Map](./docs/assets/Empathy-Map.png)
 
   
 ## 3. Conclusie
 *Wat is het belangrijkste inzicht dat we meenemen naar de Define fase?*
+* Het belangrijkste inzicht dat we meenemen naar de Define-fase is een diepgaand begrip van de gebruiker, specifiek hun werkelijke behoeften, pijnpunten en onuitgesproken motivaties die zijn ontdekt tijdens de Empathize-fase
