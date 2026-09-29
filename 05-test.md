@@ -2,7 +2,7 @@
 
 ## 1. Testopzet
 * **Wat testen we?** [Bijv: Werkt de filterfunctie logisch?]
-* **Wie zijn de testpersonen?** [Bijv: 3 studenten uit een andere groep]
+* **Wie zijn de testpersonen?** Nog niemand
 
 ## 2. Test Resultaten
 | Testpersoon | Taak geslaagd? | Opmerking / Feedback |
