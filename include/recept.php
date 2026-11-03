@@ -22,7 +22,7 @@ try {
     $stmt->execute();
     $recepten = $stmt->fetchAll();
 
-    include __DIR__ . '/../views/demo_view.php';
+    include __DIR__ . '/../view/overzicht_view.php';
 
 } catch (PDOException $e) {
     echo "<p>Fout!</p>";

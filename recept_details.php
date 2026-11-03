@@ -13,4 +13,4 @@ $stmt = $conn->prepare("SELECT * FROM demo_recept WHERE id = :id");
 $stmt->execute(['id' => $id]);
 $recept = $stmt->fetch();
 
-include __DIR__ . '/views/details_view.php';
+include __DIR__ . '/view/details_view.php';

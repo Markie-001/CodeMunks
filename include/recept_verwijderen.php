@@ -23,7 +23,7 @@ try {
     } else {
         $resultaat = "Er is iets fout gegaan bij het verwijderen van het recept.";
     }
-    include __DIR__ . '/../views/recept_verwijderen_view.php';
+    include __DIR__ . '/../view/recept_verwijderen_view.php';
 } catch (PDOException $e) {
     // Foutafhandeling als de query niet wordt uitgevoerd
     echo "<p>FOUT!</p>";
