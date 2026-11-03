@@ -21,4 +21,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $melding = "Verkeerde gebruikersnaam of wachtwoord.";
     }
 }
-include __DIR__ . '/../views/login_view.php';
+include __DIR__ . '/../view/login_view.php';

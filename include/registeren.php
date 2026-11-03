@@ -20,4 +20,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $melding = "Deze gebruikersnaam bestaat al.";
     }
 }
-include __DIR__ . '/../views/registreren_view.php';
+include __DIR__ . '/../view/registeren_view.php';

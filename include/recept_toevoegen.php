@@ -34,4 +34,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 }
-include __DIR__ . '/../views/view_toevoegen.php';
+include __DIR__ . '/../view/view_toevoegen.php';

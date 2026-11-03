@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #22c55e;
+    padding: 10px;
+}
+
+header img {
+    height: 80px;
+}
+
+.inhoud {
+    padding: 30px;
+}
+
+.recepten {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.foto {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.balk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #22c55e;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.verwijder {
+    background-color: #ef4444;
+    color: white;
+    padding: 5px;
+}
+
+.knop {
+    background-color: #22c55e;
+    padding: 15px;
+    border: none;
+}
+
+.midden {
+    text-align: center;
+    padding: 30px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filter {
+    display: inline-block;
+    background-color: #22c55e;
+    padding: 8px 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.formulier {
+    width: 500px;
+    margin: auto;
+}
+
+.formulier label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.formulier input,
+.formulier textarea,
+.formulier select {
+    width: 100%;
+}
+
+.fout {
+    color: #ef4444;
+}
+
+h1 {
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.helft {
+    width: 50%;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    background-color: #22c55e;
+    padding: 15px;
+}
+
+.vak {
+    background-color: #22c55e;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.grote-foto {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .recepten {
+        grid-template-columns: 1fr;
+    }
+
+    .details {
+        display: block;
+    }
+
+    .helft {
+        width: 100%;
+    }
+
+    .formulier {
+        width: 100%;
+    }
+}
