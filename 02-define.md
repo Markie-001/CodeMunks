@@ -15,8 +15,11 @@
 
 **Should Haves:**
 * Zoekfunctie: Gebruikers kunnen zoeken naar wat ze willen.
+* Database: De website maakt gebruik van een database waarin gebruikersgegevens en recepten worden opgeslagen, beheerd en opgehaald.
 * Categorieën: Gebruikers kunnen recepten bekijken binnen verschillende categorieën.
 * Filteren: Gebruikers kunnen zoeken binnen specifieke categorie.
+* Kooktips: Gebruikers kunnen handige kooktips vinden die hun helpen hun kookvaardigheden te verbeteren.
+* Visuele inspiratie: De website maakt gebruik van aantrekkelijke afbeeldingen en visuele elementen om gebruikers te inspireren om zelf te koken.
 * Administrator: De administrator kan recepten aanpassen/verwijderen en gebruikers beheren.
 * Overzichtspagina: Gebruikers kunnen een overzicht van recepten binnen een categorie bekijken.
 * Detailpagina: Gebruikers kunnen een recept volledig bekijken met ingrediënten en bereidingswijze.
