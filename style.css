@@ -85,6 +85,14 @@ header img {
     border-radius: 10px;
 }
 
+.formulier-toevoegen {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+
 span .categorie-gerecht {
     background: blue;
     color: white;

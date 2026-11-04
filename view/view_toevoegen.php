@@ -14,7 +14,7 @@
 
 <h1>Jouw recepten toevoegen</h1>
 
-<form method="post" enctype="multipart/form-data" class="formulier">
+<form method="post" enctype="multipart/form-data" class="formulier-toevoegen">
     <p class="fout"><?= $melding ?></p>
 
     <label>
