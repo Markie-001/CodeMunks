@@ -7,30 +7,24 @@
     <link href="../style.css" rel="stylesheet">
 </head>
 <body>
-
-<header>
-    <img src="../assets/logo.png" alt="Logo">
-</header>
-
-<h1>Inloggen</h1>
-
 <form method="post" class="formulier">
     <p class="fout"><?= $melding ?></p>
 
-    <label>
-        Gebruikersnaam:
-        <input type="text" name="gebruikersnaam" required>
-    </label>
+    <div class="form-container">
+        <h1>Inloggen</h1> <br>
+        <label>
+            <input type="text" name="gebruikersnaam" placeholder="Gebruikersnaam" required>
+        </label>
 
-    <label>
-        Wachtwoord:
-        <input type="password" name="wachtwoord" required>
-    </label>
+        <label>
+            <input type="password" name="wachtwoord" placeholder="Wachtwoord" required>
+        </label>
 
-    <button type="submit" class="knop">Inloggen</button>
+        <button type="submit" class="knop">Inloggen</button>
 
-    <p>Nog geen account? <a href="registreren.php"><u>Registreer hier</u></a></p>
-    <p><a href="recept.php"><u>Terug naar recepten</u></a></p>
+        <p>Nog geen account? <a href="registreren.php"><u>Registreer hier</u></a></p>
+        <p><a href="recept.php"><u>Terug naar recepten</u></a></p>
+    </div>
 </form>
 
 </body>
