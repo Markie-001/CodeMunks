@@ -18,6 +18,12 @@
     <?php endif; ?>
 </header>
 
+<?php if (isset($_SESSION['gebruiker'])): ?>
+    <div class="midden">
+        <a href="recept_toevoegen.php" class="knop">Recept toevoegen</a>
+    </div>
+<?php endif; ?>
+
 <section class="inhoud">
     <h2>Nieuwste recepten blogs</h2>
 
@@ -37,8 +43,8 @@
 
                 <div class="balk">
                     <span>
-                        <?= $rij['gerecht'] ?><br>
-                        <small><?= $rij['categorie'] ?></small>
+                        <div class="gerecht-recept"><?= $rij['gerecht'] ?><br></div>
+                        <div class="categorie-gerecht"><small><?= $rij['categorie'] ?></small></div>
                     </span>
 
                     <?php if (isset($_SESSION['gebruiker'])): ?>
@@ -52,12 +58,5 @@
         <?php endforeach; ?>
     </div>
 </section>
-
-<?php if (isset($_SESSION['gebruiker'])): ?>
-    <div class="midden">
-        <a href="recept_toevoegen.php" class="knop">Recept toevoegen</a>
-    </div>
-<?php endif; ?>
-
 </body>
 </html>

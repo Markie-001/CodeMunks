@@ -85,6 +85,12 @@ header img {
     border-radius: 10px;
 }
 
+span .categorie-gerecht {
+    background: blue;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
 .formulier div {
     width: 90%;
     margin: auto;
