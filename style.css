@@ -53,9 +53,15 @@ header img {
 }
 
 .knop {
+    display: flex;
+    justify-content: center;
     background-color: #22c55e;
     padding: 15px;
     border: none;
+}
+
+.knop:hover {
+    background-color: darkgreen;
 }
 
 .midden {
@@ -85,33 +91,10 @@ header img {
     border-radius: 10px;
 }
 
-.formulier-toevoegen {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    height: 400px;
-    margin: auto;
-}
-
-span .categorie-gerecht {
-    background: blue;
-    color: white;
-    font-size: 20px;
-    padding: 5px;
-}
 .formulier div {
     width: 90%;
     margin: auto;
     margin-top: auto;
-}
-
-.knop {
-    display: flex;
-    justify-content: center;
-}
-
-.form-container button {
-    margin: auto;
 }
 
 .formulier label {
@@ -126,8 +109,76 @@ span .categorie-gerecht {
     height: 30px;
 }
 
+.formulier-toevoegen {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.formulier-toevoegen label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: bold;
+}
+
+.formulier-toevoegen input[type="text"],
+.formulier-toevoegen select,
+.formulier-toevoegen textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.formulier-toevoegen textarea {
+    resize: vertical;
+}
+
+.formulier-toevoegen input[type="file"] {
+    font-weight: normal;
+}
+
+.formulier-toevoegen input:focus,
+.formulier-toevoegen select:focus,
+.formulier-toevoegen textarea:focus {
+    outline: none;
+    border-color: #22c55e;
+}
+
+.formulier-toevoegen .knop {
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+span .categorie-gerecht {
+    background: blue;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.form-container button {
+    margin: auto;
+}
+
 .fout {
     color: #ef4444;
+}
+
+.fout:empty {
+    display: none;
 }
 
 h1 {
@@ -148,7 +199,26 @@ h1 {
     display: flex;
     justify-content: space-between;
     background-color: #22c55e;
-    padding: 15px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.tabs a {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.tabs a:hover {
+    background-color: #16a34a;
+    color: white;
+}
+
+.tabs a.actief {
+    background-color: white;
+    color: #16a34a;
+    font-weight: bold;
 }
 
 .vak {
