@@ -15,9 +15,9 @@
 <div class="details">
     <div class="helft">
         <div class="tabs">
-            <a href="?id=<?= $recept['id'] ?>&tab=beschrijving">Beschrijving</a>
-            <a href="?id=<?= $recept['id'] ?>&tab=ingredienten">Ingrediënten</a>
-            <a href="?id=<?= $recept['id'] ?>&tab=instructie">Instructie</a>
+            <a href="?id=<?= $recept['id'] ?>&tab=beschrijving" class="<?= $tab == 'beschrijving' ? 'actief' : '' ?>">Beschrijving</a>
+            <a href="?id=<?= $recept['id'] ?>&tab=ingredienten" class="<?= $tab == 'ingredienten' ? 'actief' : '' ?>">Ingrediënten</a>
+            <a href="?id=<?= $recept['id'] ?>&tab=instructie" class="<?= $tab == 'instructie' ? 'actief' : '' ?>">Instructie</a>
         </div>
         <div class="vak">
             <p><?= htmlspecialchars($recept[$tab]) ?></p>
