@@ -7,6 +7,22 @@ body {
     background-repeat: no-repeat;
 }
 
+* {
+    font-family: 'Lexend', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.knop, .filter, .tabs a {
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
 a {
     color: black;
     text-decoration: none;
