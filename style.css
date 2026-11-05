@@ -52,6 +52,7 @@ header img {
     background-color: #ef4444;
     color: white;
     padding: 5px;
+    border-radius: 5px;
 }
 
 .knop {
@@ -60,6 +61,7 @@ header img {
     background-color: #22c55e;
     padding: 15px;
     border: none;
+    border-radius: 10px;
 }
 
 .knop:hover {
@@ -83,6 +85,11 @@ header img {
     margin-right: 5px;
     margin-bottom: 5px;
     border-radius: 20px;
+}
+
+.filter:hover {
+    background-color: white;
+    color: #16a34a;
 }
 
 .formulier {
@@ -166,10 +173,11 @@ header img {
 }
 
 span .categorie-gerecht {
-    background: blue;
-    color: white;
+    background: white;
+    color: #16a34a;
     font-size: 20px;
     padding: 5px;
+    border-radius: 5px;
 }
 
 .form-container button {
