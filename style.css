@@ -63,7 +63,8 @@ header img {
 }
 
 .knop:hover {
-    background-color: darkgreen;
+    background-color: white;
+    color: #16a34a;
 }
 
 .midden {
