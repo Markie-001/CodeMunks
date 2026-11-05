@@ -26,7 +26,7 @@
         <button type="submit" class="knop">Inloggen</button>
         <br>
 
-        <p>Nog geen account? <a href="registreren.php"><u>Registreer hier</u></a></p>
+        <p>Nog geen account? <a href="../include/registeren.php"><u>Registreer hier</u></a></p>
         <p><a href="recept.php"><u>Terug naar recepten</u></a></p>
     </div>
 </form>

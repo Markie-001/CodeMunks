@@ -10,29 +10,23 @@
     </style>
 </head>
 <body>
-
-<header>
-    <img src="../assets/logo.png" alt="Logo">
-</header>
-
-<h1>Registreren</h1>
-
 <form method="post" class="formulier">
     <p class="fout"><?= $melding ?></p>
 
-    <label>
-        Gebruikersnaam:
-        <input type="text" name="gebruikersnaam" required>
-    </label>
+    <div class="form-container">
+        <h1 class="registreren-h1">Registreren</h1>
+        <label>
+            <input type="text" name="gebruikersnaam" placeholder="Gebruikersnaam" required>
+        </label>
 
-    <label>
-        Wachtwoord:
-        <input type="password" name="wachtwoord" required>
-    </label>
+        <label>
+            <input type="password" name="wachtwoord" placeholder="Wachtwoord" required>
+        </label>
 
-    <button type="submit" class="knop">Account maken</button>
+        <button type="submit" class="knop">Account maken</button>
 
-    <p>Al een account? <a href="login.php"><u>Log hier in</u></a></p>
+        <p class="registreren-p">Al een account? <a href="login.php"><u>Log hier in</u></a></p>
+    </div>
 </form>
 
 </body>

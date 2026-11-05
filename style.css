@@ -1,10 +1,11 @@
 body {
     margin: 0;
     font-family: Arial;
-    background-image: url("assets/food-background.jpg");
+    min-height: 100vh;
+    background-image: url(assets/food-background.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 * {
@@ -241,6 +242,14 @@ h1 {
 .tabs a:hover {
     background-color: #16a34a;
     color: white;
+}
+
+.form-container .registreren-h1 {
+    margin-bottom: 50px;
+}
+
+.form-container .registreren-p {
+    margin-top: 50px;
 }
 
 .tabs a.actief {
