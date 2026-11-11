@@ -1,10 +1,9 @@
 <?php
 
-$host = 'localhost';
-$db   = 'demo_recept';
-$user = 'root';
-$pass = 'root';
-$charset = 'utf8mb4';
+$host = 'sql___.infinityfree.com';   // hostname from step 1
+$db   = 'if0_43343813_recept';
+$user = 'if0_43343813';
+$pass = 'Iw9PQFdKB7p';                       // the PASSWORD on this page (click the eye icon)
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
