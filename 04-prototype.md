@@ -1,7 +1,7 @@
 # Fase 4: Prototype (Ontwerp & Techniek)
 
 ## 1. Wireframes (Lo-Fi)
-![Wireframes](./assets/wireframes-lofi.png)
+![Wireframes](https://www.figma.com/design/BUL3VN7yrqEsX4ZlUHR8cl/Untitled?node-id=0-1&p=f)
 
 ## 2. Visual Design (Hi-Fi)
 ![Visual Design](./assets/visual-design-hifi.png)
